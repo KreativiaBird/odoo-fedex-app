@@ -1,7 +1,7 @@
 {
-  "version": "1.0.1",
-  "date": "2025-12-03",
-  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.1/OdooFedExApp.exe",
-  "changelog": "Lista zmian w tej wersji:\n- Naprawione błędy\n- Nowe funkcje\n- Ulepszenia"
+  "version": "1.0.2",
+  "date": "2025-12-02",
+  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.2/OdooFedExApp.exe",
+  "changelog": "Wersja 1.0.2\n- Wyświetlanie numeru wersji w górnym prawym rogu\n- Przycisk 'Sprawdź aktualizacje' w ustawieniach\n- Naprawiona walidacja kolorów pól adresowych\n- Zmieniony komunikat błędu RATE.LOCATION.NOSERVICE\n- Auto-dismiss dla okien błędów\n- Funkcjonalność zapisu CSV z listą wysyłek\n- Przycisk 'Zamknij listę wysyłkową'"
 }
 
