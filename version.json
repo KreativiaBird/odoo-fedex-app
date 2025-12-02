@@ -1,7 +1,7 @@
 {
-  "version": "1.0.0",
-  "date": "2025-12-02",
-  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.0/OdooFedExApp.exe",
-  "changelog": "Pierwsza wersja aplikacji\n- Integracja z Odoo\n- Integracja z FedEx API\n- Generowanie etykiet\n- Automatyczne planowanie odbioru"
+  "version": "1.0.1",
+  "date": "2025-12-03",
+  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.1/OdooFedExApp.exe",
+  "changelog": ""Lista zmian w tej wersji:\n- Naprawione błędy\n- Nowe funkcje\n- Ulepszenia"
 }
 
