@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
-  "date": "2025-12-02",
-  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.2/OdooFedExApp.exe",
-  "changelog": "Wersja 1.0.2\n- Wyświetlanie numeru wersji w górnym prawym rogu\n- Przycisk 'Sprawdź aktualizacje' w ustawieniach\n- Naprawiona walidacja kolorów pól adresowych\n- Zmieniony komunikat błędu RATE.LOCATION.NOSERVICE\n- Auto-dismiss dla okien błędów\n- Funkcjonalność zapisu CSV z listą wysyłek\n- Przycisk 'Zamknij listę wysyłkową'"
+  "version": "1.0.3",
+  "date": "2025-12-03",
+  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.3/OdooFedExApp.exe",
+  "changelog": "Wersja 1.0.3 (2025-12-03)\n\nNowe funkcje:\n- Integracja z Google Sheets - automatyczny zapis listy wysyłek do arkusza Google\n- Wyświetlanie szacowanego terminu dostawy po kliknięciu 'Sprawdź cenę' (format: 'Czwartek 04-12-2025')\n- Automatyczne zlecanie odbioru przez FedEx Pickup API - faktyczne zlecenie odbioru z numerem potwierdzenia\n- Dodanie kolumny 'REF (Numer zamówienia)' do Google Sheets i CSV\n- Dodanie kolumny 'Data wygenerowania' do Google Sheets i CSV\n\nNaprawione błędy:\n- Naprawiono parsowanie deliveryDate z operationalDetail w odpowiedzi Rate API\n- Naprawiono czyszczenie pól street2 i street3 przy ładowaniu danych z Odoo\n- Naprawiono błąd z recipients/recipient w zbieraniu danych wysyłek\n\nUlepszenia:\n- Poprawiono logowanie odpowiedzi Rate API dla debugowania\n- Dodano szczegółowe logowanie procesu zlecenia odbioru\n- Ulepszono obsługę błędów przy zleceniu odbioru"
 }
 
