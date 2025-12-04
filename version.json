@@ -1,7 +1,6 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "date": "2025-12-03",
-  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.3/OdooFedExApp.exe",
-  "changelog": "Wersja 1.0.3 (2025-12-03)\n\nNowe funkcje:\n- Integracja z Google Sheets - automatyczny zapis listy wysyłek do arkusza Google\n- Wyświetlanie szacowanego terminu dostawy po kliknięciu 'Sprawdź cenę' (format: 'Czwartek 04-12-2025')\n- Automatyczne zlecanie odbioru przez FedEx Pickup API - faktyczne zlecenie odbioru z numerem potwierdzenia\n- Dodanie kolumny 'REF (Numer zamówienia)' do Google Sheets i CSV\n- Dodanie kolumny 'Data wygenerowania' do Google Sheets i CSV\n\nNaprawione błędy:\n- Naprawiono parsowanie deliveryDate z operationalDetail w odpowiedzi Rate API\n- Naprawiono czyszczenie pól street2 i street3 przy ładowaniu danych z Odoo\n- Naprawiono błąd z recipients/recipient w zbieraniu danych wysyłek\n\nUlepszenia:\n- Poprawiono logowanie odpowiedzi Rate API dla debugowania\n- Dodano szczegółowe logowanie procesu zlecenia odbioru\n- Ulepszono obsługę błędów przy zleceniu odbioru"
+  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.4/OdooFedExApp.exe",
+  "changelog": "Wersja 1.0.4 (2025-12-03)\n\nNowe funkcje:\n- Automatyczne resetowanie pól po wygenerowaniu etykiety (paczki, wagi, wymiary, koszt transportu)\n- Dodanie wymiarów i wag paczek do Google Sheets i CSV (kolumna 'Wymiary i wagi paczek')\n\nNaprawione błędy:\n- Naprawa Pickup API - dodano wymagane pole latestPickupDateTime do payload\n- Poprawiono niezawodność zlecenia odbioru przez kuriera\n\nUlepszenia:\n- Ulepszona funkcja resetowania pól - pozostawia jedną domyślną paczkę zamiast całkowitego usuwania\n- Lepsze logowanie procesu resetowania pól"
 }
-
