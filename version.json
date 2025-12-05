@@ -1,6 +1,6 @@
 {
-  "version": "1.0.4",
-  "date": "2025-12-03",
-  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.4/OdooFedExApp.exe",
-  "changelog": "Wersja 1.0.4 (2025-12-03)\n\nNowe funkcje:\n- Automatyczne resetowanie pól po wygenerowaniu etykiety (paczki, wagi, wymiary, koszt transportu)\n- Dodanie wymiarów i wag paczek do Google Sheets i CSV (kolumna 'Wymiary i wagi paczek')\n\nNaprawione błędy:\n- Naprawa Pickup API - dodano wymagane pole latestPickupDateTime do payload\n- Poprawiono niezawodność zlecenia odbioru przez kuriera\n\nUlepszenia:\n- Ulepszona funkcja resetowania pól - pozostawia jedną domyślną paczkę zamiast całkowitego usuwania\n- Lepsze logowanie procesu resetowania pól"
+  "version": "1.0.5",
+  "date": "2025-12-04",
+  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.5/OdooFedExApp.exe",
+  "changelog": "Wersja 1.0.5 (2025-12-04)\n\nNowe funkcje:\n- Automatyczne załączanie etykiet PDF do stock.picking w Odoo jako załączniki\n- Automatyczny zapis do Google Sheets po wygenerowaniu etykiety (zamiast przycisku 'Zamknij listę wysyłkową')\n\nNaprawione błędy:\n- Poprawiono niezawodność załączania etykiet do Odoo\n\nUlepszenia:\n- Etykiety są teraz dostępne bezpośrednio w Odoo bez ręcznego załączania\n- Dane wysyłek są zapisywane do Google Sheets natychmiast po wygenerowaniu etykiety"
 }
