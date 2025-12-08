@@ -1,6 +1,6 @@
 {
-  "version": "1.0.6",
-  "date": "2025-12-05",
-  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.6/OdooFedExApp.exe",
-  "changelog": "Wersja 1.0.6 (2025-12-05)\n\nNaprawione błędy:\n- Naprawiono błąd 'street2 has no attribute' przy zlecaniu odbioru przez FedEx\n- Naprawiono zapis logów na komputerach bez uprawnień do zapisu w folderze aplikacji (fallback do folderu tymczasowego)\n- Dodano szczegółowe logowanie dla Google Sheets export\n\nUlepszenia:\n- Logi są teraz zapisywane nawet jeśli folder aplikacji jest tylko do odczytu\n- Lepsze komunikaty błędów przy problemach z zapisem logów"
+  "version": "1.0.8",
+  "date": "2025-12-08",
+  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.8/OdooFedExApp.exe",
+  "changelog": "Wersja 1.0.8 (2025-12-08)\n\nNaprawione błędy:\n- Naprawiono błąd 'READY.TIME.INVALID' przy zlecaniu odbioru - ready time nie może być w przeszłości\n- Naprawiono błąd 'street2 has no attribute' przy zlecaniu odbioru\n\nUlepszenia:\n- Dodano szczegółowe logowanie dla Google Sheets export (weryfikacja zapisu)\n- Zlecenie odbioru działa teraz poprawnie - FedEx otrzymuje poprawne informacje o zleceniu odbioru\n- Czas odbioru jest obliczany w czasie lokalnym (nie UTC), zgodnie z wymaganiami FedEx API"
 }
