@@ -1,6 +1,6 @@
 {
-  "version": "1.0.10",
-  "date": "2025-12-08",
-  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.10/OdooFedExApp.exe",
-  "changelog": "Wersja 1.0.10 (2025-12-08)\n\nNowe funkcje:\n- Automatyczne łączenie wielu etykiet PDF w jeden wielostronnicowy plik\n- Dla wielu paczek wszystkie etykiety są teraz złączone w jeden PDF przed zapisem i załączeniem do Odoo\n- Automatyczna konwersja ZPL do PDF (jeśli potrzebna) przed złączeniem\n\nUlepszenia:\n- Zamiast wielu osobnych plików PDF, zapisywany jest jeden złączony plik: <NumerZamówienia>_FEDEX.pdf\n- Wszystkie etykiety z jednego zamówienia są teraz w jednym pliku PDF\n- Poprawiona obsługa przypadków brzegowych (pojedyncza paczka, brak PDF-ów, błędy konwersji)"
+  "version": "1.0.11",
+  "date": "2025-12-10",
+  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.11/OdooFedExApp.exe",
+  "changelog": "Wersja 1.0.11 (2025-12-10)\n\nUlepszenia:\n- Dodano obsługę normalizacji znaków specjalnych dla języków skandynawskich (duński, norweski, szwedzki, islandzki)\n- Znaki specjalne (Æ, æ, Ø, ø, Å, å, Ä, ä, Ö, ö, Þ, þ, Ð, ð, Á, á, É, é, Í, í, Ó, ó, Ú, ú, Ý, ý) są teraz poprawnie konwertowane na ASCII\n- Rozszerzona funkcja normalizacji znaków obsługuje teraz wszystkie główne języki europejskie"
 }
