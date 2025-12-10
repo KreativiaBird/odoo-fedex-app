@@ -1,6 +1,6 @@
 {
-  "version": "1.0.9",
+  "version": "1.0.10",
   "date": "2025-12-08",
-  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.9/OdooFedExApp.exe",
-  "changelog": "Wersja 1.0.9 (2025-12-08)\n\nNowe funkcje:\n- Konfigurowalne godziny odbioru paczek do FedEx w ustawieniach (3 sloty czasowe)\n- Obsługa minut w godzinach odbioru (np. 13:45 zamiast tylko 13:00)\n- Zmiana nazwy załącznika PDF w Odoo na format: <NumerZamówienia>_FEDEX.pdf (np. SO162066_FEDEX.pdf)\n\nUlepszenia:\n- Wszystkie pola godzin odbioru są teraz edytowalne w ustawieniach\n- Poprawiony layout ustawień - brak nakładania się elementów\n- Bardziej zrozumiałe opisy slotów odbioru z edytowalnymi polami bezpośrednio w tekście"
+  "download_url": "https://github.com/KreativiaBird/odoo-fedex-app/releases/download/v1.0.10/OdooFedExApp.exe",
+  "changelog": "Wersja 1.0.10 (2025-12-08)\n\nNowe funkcje:\n- Automatyczne łączenie wielu etykiet PDF w jeden wielostronnicowy plik\n- Dla wielu paczek wszystkie etykiety są teraz złączone w jeden PDF przed zapisem i załączeniem do Odoo\n- Automatyczna konwersja ZPL do PDF (jeśli potrzebna) przed złączeniem\n\nUlepszenia:\n- Zamiast wielu osobnych plików PDF, zapisywany jest jeden złączony plik: <NumerZamówienia>_FEDEX.pdf\n- Wszystkie etykiety z jednego zamówienia są teraz w jednym pliku PDF\n- Poprawiona obsługa przypadków brzegowych (pojedyncza paczka, brak PDF-ów, błędy konwersji)"
 }
